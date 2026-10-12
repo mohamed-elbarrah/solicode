@@ -1,0 +1,36 @@
+1. Formalized Functionalities by Entity:
+
+Entity: Article
+
+    Read (R): The Administrator lists the articles.
+
+    Create (C): The Administrator adds an article.
+
+    Update (U): The Administrator modifies an article.
+
+    Delete (D): The Administrator deletes an article.
+
+Entity: Category
+
+    Read (R): The Administrator lists the categories.
+
+    Create (C): The Administrator adds a category.
+
+    Update (U): The Administrator modifies a category.
+
+    Delete (D): The Administrator deletes a category.
+
+
+
+
+2. Example Functional Path:
+
+Feature: The Administrator adds a category
+
+    Actor: Administrator
+
+    Starting Screen: Category Management Page (/admin/categories)
+
+    Action: Clicks the "Nouvelle Catégorie" (Add a category) button
+
+    Result: Displays the category creation form
