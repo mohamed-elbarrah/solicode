@@ -1,0 +1,21 @@
+1. Dashboard ActionsNavigation:
+Access main sections via the side menu (Articles, Categories, or Logout).
+Overview & Analytics: View key statistics (Total Published Articles, Total Categories, Total Views).
+Quick Access: Click the "Nouvel article" (New Article) button to jump straight to article creation.
+Recent Activity: Review recent articles and click "Voir tout" (See all) to access the full list.
+
+
+2. Article Management ActionsRead / List: 
+View all articles along with details such as Title, Category, Publication Date, and Status (Published / Draft).   
+Search & Filter: Search articles by title or filter by category.   
+Create: Click "Nouvel Article" to open and submit the creation form.   
+Update: Click the Edit icon on any row to modify an existing article.   
+Delete: Click the Trash icon on any row to remove an article.   
+
+
+3. Category Management ActionsRead / List: 
+View all categories along with the count of associated articles.   
+Search: Use the dedicated search bar to find specific categories.   
+Create: Click "Nouvelle Catégorie" to create a new category.   
+Update: Click the Edit icon on any row to update category details.  
+Delete: Click the Trash icon on any row to remove a category.   
