@@ -1,0 +1,23 @@
+1. Inventory of Observed Values by Data Point
+
+    author_name (Last Name): But, Amrani, Karim, Idrissi, Alaoui.
+
+    author's first name (First Name): Madani, Sara, Youssef, Amine, Nadia.
+
+    author's email (Email): madani@mail.com, sara@mail.com, youssef@mail.com, amine@mail.com, nadia@mail.com.
+
+    city_name (City): Tanger, Rabat.
+
+    category_name (Category): Development, News.
+
+2. Identification of Repeated Values
+
+    city_name: The value "Tanger" is repeated (appears 3 times, for Madani, Sara, and Amine). The value "Rabat" is also repeated (appears 2 times, for Youssef and Nadia).
+
+    category_name: The value "Development" is repeated (appears 3 times). The value "News" is repeated (appears 2 times).
+
+    Note: Personal identifiers (author_name, first name, email) have no repetitions in this small dataset, as each author is unique.
+
+3. Impact of Repetition
+
+    Modification Problem: If the city name "Tanger" had to be changed or corrected across the table (e.g., due to a spelling mistake), multiple rows would need to be edited manually, creating a high risk of inconsistency if any row is missed.
