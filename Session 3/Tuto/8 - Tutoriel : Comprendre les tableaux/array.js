@@ -6,3 +6,4 @@ console.log(`third number: ${nums[2]}`);
 console.log(`forth number: ${nums[3]}`);
 console.log(`last number: ${nums[5]}`);
 console.log(`length of the array nums : ${nums.length}`);
+
