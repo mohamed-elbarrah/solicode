@@ -7,7 +7,7 @@ let somme = 0;
 for (let i = 0; i < taille; i++) {
   notes[i] = Number(prompt(`enter note of student ${i + 1}: `));
 
-  somme += notes[i];
+  somme += notes[i]; 
 }
 let moyenne = somme / taille;
 
