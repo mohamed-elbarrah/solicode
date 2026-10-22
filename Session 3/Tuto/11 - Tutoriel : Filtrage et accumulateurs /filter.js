@@ -23,12 +23,18 @@ console.log(
 
 // 2.1
 
-let mots = ["chat", "ordinateur", "table", "programmation", "js"];
+let mots = ["chat", "ordinateur", "table", "programmation", "js", "tv"];
 let motsLong = 0;
 
 for (let i = 0; i < mots.length; i++) {
+  console.log(mots[i], "->", mots[i].length);
+
   if (mots[i].length > 5) {
     motsLong++;
+  }
+
+  if (mots[i][0] === "t") {
+    console.log(`mot ${mots[i]} started with "t" `);
   }
 }
 
