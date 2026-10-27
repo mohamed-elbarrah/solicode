@@ -1,0 +1,31 @@
+.section-articles {
+  padding: 80px 24px;
+}
+
+.carte-contenu {
+  padding: 20px;
+}
+
+.carte-article {
+  /* ... (règles précédentes de fond et bordure) ... */
+  margin-bottom: 24px;
+  width: 300px;
+  background: #f9fafb;
+  border: 2px solid #e5e7eb;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.carte-contenu h3 {
+  margin: 0; /* Enlève la marge par défaut du titre */
+}
+
+.carte-contenu p {
+  margin: 12px 0; /* 12px en haut et en bas, 0 à gauche et à droite */
+}
+
+.carte-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
