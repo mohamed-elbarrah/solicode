@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  color: #102858;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #435a7e;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-title {
+  font-size: 28px;
+}
+
+.logo-title span {
+  color: #ffd04a;
+}
+
+/* hero section */
+.hero-section {
+  background-color: #ecf4fd;
+}
+
+.hero-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.hero-content h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 70px;
+}
+.hero-content p {
+  font-size: 18px;
+  margin: 18px 0;
+  margin-right: 250px;
+}
+
+.hero-content span {
+  color: #1769e8;
+}
+
+.hero-img {
+  display: flex;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 30px;
+}
+
+.features-section {
+  margin: 30px 0;
+}
+
+.feature-cards {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.feature-card:nth-child(odd) .feature-icon {
+  background-color: #c0d9ff;
+}
+
+.feature-card:nth-child(even) .feature-icon {
+  background-color: #fff0c5;
+}
+
+.feature-icon {
+  padding: 20px;
+  /* background-color: #6ca7ff; */
+  border-radius: 100%;
+  display: flex;
+}
+.feature-icon img {
+  width: 35px;
+  height: 35px;
+}
+
+.feature-card h3,
+p {
+  margin: 0;
+}
+
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.parcours-container h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.parcours-title p {
+  color: #5398ff;
+}
+
+.parcours-section {
+  background-color: #ecf4fd;
+  padding: 30px 0;
+}
+.parcours-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.parcours-card {
+  flex: 1;
+  display: flex;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  gap: 20px;
+}
+
+/* .parcours-card img {
+  width: 100%;
+  display: block;
+} */
+
+.parcours-card h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.parcours-card a {
+  color: #1769e8;
+}
+
+.card-content {
+  padding: 14px;
+}
+
+.parcours-card:nth-child(odd) .content-icon {
+  background-color: #d2e4ff;
+  border: 1px solid #8cb9fc;
+}
+
+.parcours-card:nth-child(even) .content-icon {
+  background-color: #ffeec0;
+  border: 1px solid #ffd04a;
+}
+
+.content-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+
+  border-radius: 10px;
+}
+
+.content-icon img {
+  width: 30px;
+  height: 30px;
+}

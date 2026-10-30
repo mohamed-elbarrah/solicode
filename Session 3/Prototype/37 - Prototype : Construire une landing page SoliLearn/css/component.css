@@ -1,0 +1,38 @@
+button {
+  border-radius: 6px;
+  padding: 10px 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.se-connecter {
+  background-color: #ffd04a;
+  color: #102858;
+}
+
+.main-btn {
+  background-color: #1769e8;
+  color: white;
+}
+
+.secondery-btn {
+  background-color: transparent;
+  border: 1px solid #1769e8;
+  color: #1769e8;
+}
+
+.social-media div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #102858;
+  border-radius: 100%;
+}
+
+.social-media img {
+  width: 16px;
+  height: 16px;
+}
